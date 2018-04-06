@@ -1,0 +1,28 @@
+{
+    "name": "ydevs/calendar-helper",
+    "description": "A set of helper functions to work with calendars, dates and time periods.",
+    "type": "library",
+    "require": {
+        "cakephp/chronos": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YDevs\\CalendarHelper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YDevs\\CalendarHelper\\Tests\\" : "test/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adria Lopez",
+            "email": "adria@ydevs.com"
+        }
+    ]
+}
